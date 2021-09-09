@@ -1,0 +1,23 @@
+{
+  "name": "processamento-imagem",
+  "version": "1.0.0",
+  "description": "Processando imagens com javascript",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-PB1/processamento-imagem.git"
+  },
+  "author": "Lucas Soares Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas-PB1/processamento-imagem/issues"
+  },
+  "homepage": "https://github.com/Lucas-PB1/processamento-imagem#readme"
+}

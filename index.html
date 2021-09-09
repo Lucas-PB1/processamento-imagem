@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--DEFINIÇÕES PADRÃO-->
+    <meta charset="UTF-8">
+    <title>Processamento de Imagens</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="https://images.emojiterra.com/google/android-nougat/512px/1f44d.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--MODULOS IMPORTADOS-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!--PERSONALIZADO-->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/component.css">
+    <link rel="stylesheet" href="style/home.css">
+    <script src="js/functions.js"></script>
+
+</head>
+
+<body>
+    <div class="container main">
+        <input type="file" id="inputPre">
+        <button id="select">Selecionar Imagem</button>
+        <figure class="init-hidden">
+            <img id="loadedImg">
+        </figure>
+
+        <div id="edit" class="editOptions">
+            <div>
+                <label for="#grayscale" style="color: #ffffff;">GRAYSCALE</label>
+                <input type="range" min="0" max="100" id='grayscale' value='0' autocomplete="off" class="data-edit">
+            </div>
+            <div>
+                <label for="#blur" style="color: #ffffff;">BLUR</label>
+                <input type="range" min="0" max="10" id='blur' value='0' autocomplete="off" class="data-edit">
+            </div>
+            <div>
+                <label for="#contrast" style="color: #ffffff;">CONTRAST</label>
+                <input type="range" min="0" max="200" id='contrast' value='100' autocomplete="off" class="data-edit">
+            </div>
+            <div>
+                <label for="#invert" style="color: #ffffff;">INVERT</label>
+                <input type="range" min="0" max="100" id='invert' value='0' autocomplete="off" class="data-edit">
+            </div>
+            <div>
+                <label for="#brightness" style="color: #ffffff;">BRIGHTNESS</label>
+                <input type="range" min="0" max="200" id='brightness' value='100' autocomplete="off" class="data-edit">
+            </div>
+            <div>
+                <label for="#hue" style="color: #ffffff;">HUE</label>
+                <input type="range" min="0" max="100" id='hue' value='0' autocomplete="off" class="data-edit">
+            </div>
+            <div>
+                <label for="#opacity" style="color: #ffffff;">OPACITY</label>
+                <input type="range" min="50" max="100" id='opacity' value='100' autocomplete="off" class="data-edit">
+            </div>
+            <div>
+                <label for="#saturate" style="color: #ffffff;">SATURATE</label>
+                <input type="range" min="1" max="8" id='saturate' value='1' autocomplete="off" class="data-edit">
+            </div>
+            <div>
+                <label for="#sepia" style="color: #ffffff;">SEPIA</label>
+                <input type="range" min="0" max="100" id='sepia' value='0' autocomplete="off" class="data-edit">
+            </div>
+            <div>
+                <label for="#arrendondado" style="color: #ffffff;">BORDA ARREDONDADA</label>
+                <input type="range" min="0" max="500" id='arrendondado' value='0' autocomplete="off" class="data-edit">
+            </div>
+        </div>
+        <button id="download" class="init-hidden">Baixar Imagem</button>
+    </div>
+</body>
+
+</html>

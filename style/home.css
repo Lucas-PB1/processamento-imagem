@@ -1,0 +1,22 @@
+.init-hidden, #inputPre, .editOptions {
+    display: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#edit div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.editOptions {
+    width: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}

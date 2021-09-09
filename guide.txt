@@ -1,0 +1,21 @@
+## Passos
+
+## Criando estrutura
+    [X] Colocando um botão de upload
+        [X] Inserindo input do tipo file e ocultando
+        [X] Inserindo um botão de selecionar imagem
+        [X] Adicionando o click do mesmo ao botão de "Selecionar imagem"
+    [X] Colocando a 'Imagem'
+
+    Obs: Os contéudos abaixo so devem ser exibidos após o carregamento da imagem 
+    [X] Inserindo 3 inputs do tipo slide para os valores RGBs
+    [X] Inserindo outros input para opacidade, saturação etc
+    [ ] Inserindo a chamada de uma ferramenta de corte
+    [X] Inserindo um botão de download
+
+## Codificação
+    [X] Recebendo a imagem e exibindo
+    [X] Inserindo no contexto canvas
+    [X] Criar codigo que altere o RGB em tempo real
+    [X] Criar outra função para demais elementos
+    [ ] Permitir uso ou não da ferramenta de corte
